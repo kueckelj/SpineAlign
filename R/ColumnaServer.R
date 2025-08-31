@@ -941,9 +941,6 @@ ColumnaServer <- function(input, output, session){
 
     bb <- compute_bb(poly$coords, limits = img_limits(xray_img()), square = TRUE)
 
-    print(bb)
-    print(map(bb, diff))
-
     plot_xray(
       img = xray_img_proc(),
       xlim = bb$col,
