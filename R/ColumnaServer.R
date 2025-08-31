@@ -5,7 +5,7 @@ ColumnaServer <- function(input, output, session){
 
   # UI - Server Side --------------------------------------------------------
 
-  roots <- c(project = ifelse(local_launch(), "/Users/heilandr/lab/projects/SpineAlign", "~"))
+  roots <- c(project = ifelse(F, "/Users/heilandr/lab/projects/SpineAlign", "~"))
 
   # allow access to the filesystem
   shinyFiles::shinyDirChoose(
