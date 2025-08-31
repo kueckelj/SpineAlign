@@ -33,3 +33,4 @@ Imports:
     tidyr
 URL: https://github.com/kueckelj/SpineAlign
 BugReports: https://github.com/kueckelj/SpineAlign/issues
+RoxygenNote: 7.3.2

@@ -215,13 +215,12 @@ is_complete <- function(cobj){
 
 }
 
+#' @export
 launchColumna <- function(){
-
-  if(local_launch()){ devtools::load_all() }
 
   shiny::runApp(
     appDir = Columna(),
-    launch.browser = TRUE
+    launch.browser = local_launch()
     )
 
 }
