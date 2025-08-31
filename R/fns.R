@@ -1,7 +1,7 @@
 
 Columna <- function(){
 
-  if(local_launch()){ shiny::addResourcePath("www", "inst/app/www") }
+  #if(local_launch()){ shiny::addResourcePath("www", "inst/app/www") }
 
   shiny::shinyApp(
     ui = ColumnaUI(),
