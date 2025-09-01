@@ -351,14 +351,6 @@ plot_xray <- function(img, xlim, ylim, asp, ...){
 
 }
 
-ggplot_xray <- function(df){
-
-  ggplot2::ggplot(data = df) +
-    ggplot2::geom_raster(
-      mapping =
-    )
-
-}
 
 read_columna <- function(path_exam, images = c("ap", "lat")){
 

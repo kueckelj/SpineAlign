@@ -15,12 +15,15 @@ License: What license is it under?
 Encoding: UTF-8
 LazyData: true
 Imports: 
+    dplyr,
     DT,
     ggnewscale,
     ggplot2,
     glue,
     jpeg,
     purrr,
+    reshape2,
+    rlang,
     shiny,
     shinybusy,
     shinydashboard,

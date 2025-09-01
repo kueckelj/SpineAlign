@@ -1112,7 +1112,7 @@ ColumnaServer <- function(input, output, session){
         scrollY = "55vh", scrollCollapse = TRUE,
         deferRender = TRUE,
         scroller = TRUE,
-        stateSave = TRUE,          # persist scroll/selection on real redraws
+        stateSave = TRUE,
         stateDuration = -1
       )
     )
