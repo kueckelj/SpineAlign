@@ -1,4 +1,5 @@
 
+#' @export
 Columna <- function(){
 
   #if(local_launch()){ shiny::addResourcePath("www", "inst/app/www") }
@@ -216,11 +217,11 @@ is_complete <- function(cobj){
 }
 
 #' @export
-launchColumna <- function(){
+launchColumna <- function(in_browser = TRUE){
 
   shiny::runApp(
     appDir = Columna(),
-    launch.browser = local_launch()
+    launch.browser = in_browser
     )
 
 }
@@ -245,6 +246,7 @@ last_annotation_index <- function(annotations){
 
 }
 
+#' @export
 local_launch <- function(session = NULL){
 
   if(!is.null(session)){
